@@ -1,0 +1,495 @@
+
+/* DEFAULT SETTINGS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+/* GREY FONT */
+@font-face {
+    font-family: Grey;
+    src: url(..//fonts/GREY.ttf);
+}
+
+/* PROJECT SPACE FONT */
+@font-face {
+    font-family: project-space;
+    src: url(../fonts/ProjectSpace.ttf);
+}
+
+@font-face{
+    font-family: Sprintura;
+    src: url(../fonts/Sprintura.otf);
+}
+
+/* POPPINS FONT */
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts//Poppins-Regular.ttf);
+}
+
+/* HERO SECTION */
+section#hero {
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(224,92,0,1) 0%, rgba(233,192,44,1) 100%);
+    font-family: Grey;
+}
+
+section#hero .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+/* CLOSE HERO SECTION */
+
+/* FEATURED SECTION */
+section#featured {
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(0,204,255,1) 0%, rgba(0,64,255,1) 100%);
+    font-family: project-space;
+}
+
+section#featured .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+/* CLOSE FEATURED SECTION */
+
+
+
+
+/* COPY FOR MORE */
+
+section#placeholder {
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(139,195,74,1) 0%, rgba(16,157,0,1) 100%);
+}
+
+/* SECTION BUDAYA */
+#Budaya-section{
+    height: 100vh;
+    background: rgb(217,217,217);
+    background: -moz-linear-gradient(189deg, rgba(217,217,217,1) 9%, rgba(114,115,116,1) 99%);
+    background: -webkit-linear-gradient(189deg, rgba(217,217,217,1) 9%, rgba(114,115,116,1) 99%);
+    background: linear-gradient(189deg, rgba(217,217,217,1) 9%, rgba(114,115,116,1) 99%);        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d9d9d9",endColorstr="#727374",GradientType=1);
+    overflow-x: hidden;
+}
+
+
+.card-budaya {
+    width: auto;
+    height: 500px;
+    background: transparent;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    box-shadow: 0px 20px 2px #000;
+}
+
+.image img {
+    filter: drop-shadow(10px 30px 2px #000);
+}
+
+
+.article-budaya h1 {
+    font-family: Project-space;
+}
+
+
+.article-text {
+    font-family: Poppins;
+    text-align: center;
+    max-width: 60%;
+}
+
+
+.flip-text {
+    display: inline-block;
+    transform: scaleY(-1);
+}
+
+
+
+
+#Budaya-section-tayub{
+  height: 100vh;
+  background-image: url(../img/cards-budaya-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow-x: hidden;
+
+}
+
+
+.cards-budaya {
+    background: transparent;
+    height: 500PX;
+    width: 1000PX;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    box-shadow: 2px 10px 20px #fff;
+}
+
+.image-budaya img {
+    margin-right: 400px;
+}
+
+
+.text-articles {
+    transform: translateX(200px); /* Sesuaikan nilai 100px */
+}
+
+
+.articles-budaya-image img{
+    border-radius: 20px;
+}
+
+
+.text-articles p {
+    font-family: poppins;
+    max-width: 50%;
+    text-shadow: 1px 3px 1px #000;
+    font-style: italic;
+}
+
+.text-articles h3 {
+    font-family: Project-space;
+}
+
+
+
+#budaya-section-sandhur {
+    height: 200vh;
+   background-color: gray;
+   padding: 40px;
+   overflow-x: hidden;
+}
+
+.container-edt {
+    background: transparent;
+    border: 2px solid #fff;
+    height: 600px;
+    width: 1200px;
+    border-radius: 10px;
+    box-shadow: 2px 10px 20px #fff;
+}
+
+.text-sandhur{
+    position: relative;
+}
+.text-sandhur h1{
+    font-size:50px;
+    font-family:Project-space;
+}
+
+.text-sandhur p {
+    max-width: 100%;
+    font-family: poppins;
+    font-style: italic;
+}
+
+.img-sandhur img {
+    margin-left: 300px;
+}
+
+.card-sandhur img{
+    border-radius: 20px;
+}
+
+
+#Kbudaya-section-karawitan-1{
+    height: 200vh;
+    overflow-x: hidden;
+}
+
+.container-karawitan {
+    background-color: #000;
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+}
+
+
+.text-karawitan-1 marquee {
+    font-size: 100px;
+    max-width: 100%;
+    text-wrap: nowrap;
+    font-family: Project-space;
+    text-shadow: 1px 1px 1px #fff;
+    color: white;
+    font-style: italic;
+}
+.text-karawitan-2 marquee {
+    font-size: 100px;
+    max-width: 100%;
+    text-wrap: nowrap;
+    font-family: Project-space;
+    text-shadow: 1px 1px 1px #fff;
+    color: white;
+    font-style: italic;
+}
+
+
+.karawitan-image img {
+    border-radius: 10px;
+    margin-top: -250px;
+}
+
+
+#budaya-section-karawitan-2{
+    background-color: #000;
+    height: 200vh;
+    overflow-x: hidden;
+}
+
+
+.karawitan-2 h1 {
+    font-size: 90px;
+    font-family: Project-space;
+}
+
+
+.article-karawitan p {
+    max-width: 80%;
+    text-wrap: wrap;
+    font-family: poppins;
+    font-style: italic;
+}
+
+.image-article-karawitan {
+    background-color: white;
+    height: 300px;
+    width: 350px;
+    padding: 10px ;
+    border-radius: 10px ;
+
+
+}
+
+
+.image-article-karawitan img{
+    margin-right: 200px;
+}
+
+.article-karawitan-marquee marquee {
+    font-size: 80px;
+    font-family: Project-space;
+}
+
+/* CLOSE SECTION BUDAYA */
+
+
+/* /* RESPONSIVE */
+
+/* responsif (Budaya section) */
+@media (max-width: 768px) {
+    .article-budaya h1 {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .article-text {
+        font-size: 0.9rem;
+        max-width: 90%;
+    }
+
+    .image {
+        display: none; /* Hilangkan gambar pada layar kecil */
+    }
+}
+
+@media (max-width: 480px) {
+    .card-budaya {
+        padding: 20px;
+    }
+
+    .article-text {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width : 425px) and (max-width : 425px){
+    .card-budaya h1{
+        font-size: 20px;
+    }
+
+    .card-budaya {
+        height: 450px;
+    }
+
+    .article-text {
+        font-size: 0.8rem;
+    }
+}
+/* responsif (Budaya section) */
+
+
+/* responsif (budaya-section-tayub) */
+@media (max-width: 1024px) {
+    .cards-budaya {
+      width: 90%;
+      height: auto;
+      padding: 20px;
+    }
+    .image-budaya img {
+      display: none;
+    }
+    .content-articles-budaya {
+      flex-direction: column;
+      align-items: center;
+    }
+    .text-articles {
+      transform: translateX(0);
+      text-align: center;
+    }
+    .text-articles p {
+      max-width: 100%;
+    }
+    .articles-budaya-image img {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #Budaya-section-tayub {
+      height: auto;
+      padding: 20px 10px;
+    }
+    .cards-budaya {
+      box-shadow: none;
+      border: 2px solid #fff;
+    }
+    .text-articles h3 {
+      font-size: 1.6rem;
+    }
+    .text-articles hr {
+        display: none;
+    }
+    .text-articles p {
+      font-size: 0.9rem;
+    }
+
+    .image-budaya img {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .articles-budaya-image img {
+        display: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cards-budaya {
+      padding: 10px;
+      display: flex;
+    }
+    .text-articles h3 {
+      font-size: 1.2rem;
+    }
+    .text-articles p {
+      font-size: 0.8rem;
+    }
+    .articles-budaya-image img {
+      width: 100%;
+    }
+  }
+/* responsif (budaya-section-tayub) */
+
+/* responsif (budaya-section-sandhur) */
+@media (max-width: 1024px) {
+    .container-edt {
+      width: 90%;
+      height: auto;
+      padding: 20px;
+    }
+    .text-sandhur h1 {
+      font-size: 2rem;
+    }
+    .text-sandhur p {
+      font-size: 1rem;
+    }
+    .card-sandhur img {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #budaya-section-sandhur {
+      height: 700px;
+      padding: 10px;
+    }
+    .container-edt {
+      box-shadow: none;
+      border: 2px solid #fff;
+    }
+    .text-sandhur h1 {
+      font-size: 1.5rem;
+    }
+    .text-sandhur p {
+      font-size: 0.7rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container-edt {
+      padding: 10px;
+      width: 95%;
+    }
+    .text-sandhur h1 {
+      font-size: 1.2rem;
+    }
+    .text-sandhur p {
+      font-size: 0.8rem;
+    }
+  }
+/* responsif (budaya-section-sandhur) */
+
+/* responsif (budaya-section-karawitan-1) */
+/* tidak usah di kasih responsif tampilan nya sudah cocok */
+/* responsif (budaya-section-karawitan-1) */
+
+
+
+/* responsif (budaya-section-karawitan-2) */
+@media (max-width: 768px) {
+    .text-karawitan-icn h1 {
+      font-size: 2rem;
+    }
+
+    .article-karawitan p {
+      font-size: 0.9rem;
+    }
+
+    .article-karawitan-marquee marquee {
+      font-size: 1.2rem;
+    }
+
+    .image-article-karawitan {
+      padding: 5px;
+      height: auto;
+      width: 100%;
+    }
+  }
+/* responsif (budaya-section-karawitan-2) */
+
+
